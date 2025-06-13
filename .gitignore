@@ -39,7 +39,40 @@ bower_components
 build/Release
 
 # Dependency directories
+# Dependencias de Node.js
 node_modules/
+
+# Variables de entorno (contienen información sensible)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de salida generados
+transcripcion_output.md
+debug_response.txt
+prueba.txt
+prueba_output.md
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
